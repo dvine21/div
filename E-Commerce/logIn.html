@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/14cd8c5c36.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">MyHome <span>Furniture</span></div>
+    
+        <input type="checkbox" id="check">
+        <label for="check" class="menu-btn">
+            <i class="fa fa-bars" id="menu-icon"></i>
+            <i class="fa-solid fa-x" id="close-icon"></i>
+        </label>
+       
+        <ul class="menu">
+            <li><a href="Index.html" target="_self" style="--i:0;">Home</a></li>
+            <li><a href="/Products.html" target="_self" style="--i:1;">Shop</a></li>
+            <li><a href="Products.html" target="_self" style="--i:2;">New</a></li>
+            <li><a href="Index.html" target="_self" style="--i:3;">Contact</a></li>
+            <li><a href="/logIn.html" target="_self" style="--i:4;">Login</a></li>
+            <li><a href="" style="--i:5;"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        </ul>
+        </nav>
+    <section class="body">          
+    <main class="wrapper">
+        <form action="">
+        <h1>Login</h1>
+        <div class="input-box">
+            <input type="text" placeholder="Username" required>
+            <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="input-box">
+            <input type="password" placeholder="Password" required>
+            <i class="fa-solid fa-lock"></i>
+        </div>
+        <div class="remember-forgot">
+            <label><input type="checkbox">Remember Me</label>
+            <a href="#">Forgot Password?</a>
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="register-link">
+            <p>Don't have an account? <a href="#">Register</a></p>
+        </div>
+        </form>
+    </main>
+</section> 
+</body>
+</html>
